@@ -1,0 +1,8 @@
+.idea/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+CLAUDE.md
+AI/记忆/
+AI/工作区/

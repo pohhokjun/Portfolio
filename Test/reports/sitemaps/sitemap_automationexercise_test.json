@@ -1,0 +1,5174 @@
+{
+ "root_url": "https://automationexercise.com",
+ "env": "automationexercise_test",
+ "created": "2026-09-04 05:08:17",
+ "count": 25,
+ "nodes": [
+  {
+   "url": "https://automationexercise.com",
+   "title": "Automation Exercise",
+   "depth": 0,
+   "source": "start",
+   "status": 200,
+   "load_ms": 0,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "APIs list for practice",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "APIs list for practice",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "APIs list for practice",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/1",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/2",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/3",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/4",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/5",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/6",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/7",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/8",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/11",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/12",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/13",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/14",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/15",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/16",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/18",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/19",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/20",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/21",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/22",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/23",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/24",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/28",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/29",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/30",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/31",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/33",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/35",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/37",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/38",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/39",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/40",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/41",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/42",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/43",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. ",
+    "Mixed Content: The page at 'https://automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This re",
+    "Mixed Content: The page at 'https://automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; t"
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/",
+   "title": "Automation Exercise",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 0,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "APIs list for practice",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "APIs list for practice",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "APIs list for practice",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/1",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/2",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/3",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/4",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/5",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/6",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/7",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/8",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/11",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/12",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/13",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/14",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/15",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/16",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/18",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/19",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/20",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/21",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/22",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/23",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/24",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/28",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/29",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/30",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/31",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/33",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/35",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/37",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/38",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/39",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/40",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/41",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/42",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/43",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. ",
+    "Mixed Content: The page at 'https://automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This re",
+    "Mixed Content: The page at 'https://automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; t"
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/products",
+   "title": "Automation Exercise - All Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 0,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/1",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/2",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/3",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/4",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/5",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/6",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/7",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/8",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/11",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/12",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/13",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/14",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/15",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/16",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/18",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/19",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/20",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/21",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/22",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/23",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/24",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/28",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/29",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/30",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/31",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/33",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/35",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/37",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/38",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/39",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/40",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/41",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/42",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/43",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/products"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/products' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,70",
+    "Mixed Content: The page at 'https://automationexercise.com/products' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'.",
+    "Mixed Content: The page at 'https://automationexercise.com/products' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been bl"
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/view_cart",
+   "title": "Automation Exercise - Checkout",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 0,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "here",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/view_cart"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/view_cart' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,7",
+    "Mixed Content: The page at 'https://automationexercise.com/view_cart' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'",
+    "Mixed Content: The page at 'https://automationexercise.com/view_cart' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been b",
+    "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+    "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/login",
+   "title": "Automation Exercise - Signup / Login",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 1040,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "/login",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "email",
+       "type": "email",
+       "selector": "[name=\"email\"]",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Email Address",
+       "label": ""
+      },
+      {
+       "name": "password",
+       "type": "password",
+       "selector": "[name=\"password\"]",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Password",
+       "label": ""
+      }
+     ],
+     "submit_selector": "button[type=submit]"
+    },
+    {
+     "name": "form1",
+     "selector": "form:nth-of-type(2)",
+     "action": "/signup",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "name",
+       "type": "text",
+       "selector": "[name=\"name\"]",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Name",
+       "label": ""
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "selector": "[name=\"email\"]",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Email Address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "button[type=submit]"
+    },
+    {
+     "name": "form2",
+     "selector": "form:nth-of-type(3)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/login"
+    },
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/login"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/login' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,1",
+    "Mixed Content: The page at 'https://automationexercise.com/login' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. Th",
+    "Mixed Content: The page at 'https://automationexercise.com/login' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been block"
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/test_cases",
+   "title": "Automation Practice Website for UI Testing - Test Cases",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 0,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "'http://automationexercise.com'",
+     "visible": false
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/test_cases' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,",
+    "Mixed Content: The page at 'https://automationexercise.com/test_cases' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700",
+    "Mixed Content: The page at 'https://automationexercise.com/test_cases' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been "
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/api_list",
+   "title": "Automation Practice for API Testing",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 0,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api/productsList",
+     "text": "https://automationexercise.com/api/productsList",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api/productsList",
+     "text": "https://automationexercise.com/api/productsList",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api/brandsList",
+     "text": "https://automationexercise.com/api/brandsList",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api/brandsList",
+     "text": "https://automationexercise.com/api/brandsList",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api/searchProduct",
+     "text": "https://automationexercise.com/api/searchProduct",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api/searchProduct",
+     "text": "https://automationexercise.com/api/searchProduct",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api/verifyLogin",
+     "text": "https://automationexercise.com/api/verifyLogin",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api/verifyLogin",
+     "text": "https://automationexercise.com/api/verifyLogin",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api/verifyLogin",
+     "text": "https://automationexercise.com/api/verifyLogin",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api/verifyLogin",
+     "text": "https://automationexercise.com/api/verifyLogin",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api/createAccount",
+     "text": "https://automationexercise.com/api/createAccount",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api/deleteAccount",
+     "text": "https://automationexercise.com/api/deleteAccount",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api/updateAccount",
+     "text": "https://automationexercise.com/api/updateAccount",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/api/getUserDetailByEmail",
+     "text": "https://automationexercise.com/api/getUserDetailByEmail",
+     "visible": false
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/api_list"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/api_list' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,70",
+    "Mixed Content: The page at 'https://automationexercise.com/api_list' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'.",
+    "Mixed Content: The page at 'https://automationexercise.com/api_list' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been bl"
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/contact_us",
+   "title": "Automation Exercise - Contact Us",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 0,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "contact-form",
+     "selector": "#contact-us-form",
+     "action": "/contact_us",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "name",
+       "type": "text",
+       "selector": "[name=\"name\"]",
+       "required": false,
+       "maxlength": null,
+       "placeholder": "Name",
+       "label": ""
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "selector": "[name=\"email\"]",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Email",
+       "label": ""
+      },
+      {
+       "name": "subject",
+       "type": "text",
+       "selector": "[name=\"subject\"]",
+       "required": false,
+       "maxlength": null,
+       "placeholder": "Subject",
+       "label": ""
+      },
+      {
+       "name": "message",
+       "type": "textarea",
+       "selector": "#message",
+       "required": false,
+       "maxlength": null,
+       "placeholder": "Your Message Here",
+       "label": ""
+      },
+      {
+       "name": "upload_file",
+       "type": "file",
+       "selector": "[name=\"upload_file\"]",
+       "required": false,
+       "maxlength": null,
+       "placeholder": "",
+       "label": ""
+      }
+     ],
+     "submit_selector": "input[type=submit]"
+    },
+    {
+     "name": "form1",
+     "selector": "form:nth-of-type(2)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/contact_us' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,",
+    "Mixed Content: The page at 'https://automationexercise.com/contact_us' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700",
+    "Mixed Content: The page at 'https://automationexercise.com/contact_us' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been "
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/category_products/1",
+   "title": "Automation Exercise - Dress Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 0,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/3",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/4",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/38",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/category_products/1"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/1' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400it",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/1' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,30",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/1' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request "
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/category_products/2",
+   "title": "Automation Exercise - Tops Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 1085,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/1",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/5",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/6",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/7",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/8",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/42",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/category_products/2"
+    },
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/category_products/2"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/2' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400it",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/2' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,30",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/2' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request "
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/category_products/7",
+   "title": "Automation Exercise - Saree Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 1075,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/39",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/40",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/41",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/category_products/7"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/7' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400it",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/7' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,30",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/7' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request "
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/category_products/3",
+   "title": "Automation Exercise - Tshirts Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 1076,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/2",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/28",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/29",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/30",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/31",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/43",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/category_products/3"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/3' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400it",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/3' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,30",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/3' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request "
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/category_products/6",
+   "title": "Automation Exercise - Jeans Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 1095,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/33",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/35",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/37",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/category_products/6"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/6' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400it",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/6' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,30",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/6' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request "
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/category_products/4",
+   "title": "Automation Exercise - Dress Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 0,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/16",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/19",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/20",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/21",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/22",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/23",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/4' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400it",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/4' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,30",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/4' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request "
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/category_products/5",
+   "title": "Automation Exercise - Tops & Shirts Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 0,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/11",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/12",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/13",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/14",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/15",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/18",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/24",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/category_products/5"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/5' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400it",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/5' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,30",
+    "Mixed Content: The page at 'https://automationexercise.com/category_products/5' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request "
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/brand_products/Polo",
+   "title": "Automation Exercise - Polo Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 1099,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/1",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/8",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/29",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/30",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/33",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/37",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/brand_products/Polo"
+    },
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/brand_products/Polo"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Polo' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400it",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Polo' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,30",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Polo' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request "
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/brand_products/H&M",
+   "title": "Automation Exercise - H&M Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 0,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/2",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/6",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/28",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/31",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/35",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/H&M' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400ita",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/H&M' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/H&M' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request h"
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/brand_products/Madame",
+   "title": "Automation Exercise - Madame Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 1051,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/3",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/4",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/7",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/38",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/41",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/brand_products/Madame"
+    },
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/brand_products/Madame"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Madame' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Madame' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Madame' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This reques"
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+   "title": "Automation Exercise - Mast & Harbour Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 0,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/5",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/42",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/43",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Mast%20&%20Harbour' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Mast%20&%20Harbour' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+S",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Mast%20&%20Harbour' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'."
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/brand_products/Babyhug",
+   "title": "Automation Exercise - Babyhug Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 0,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/11",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/12",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/15",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/16",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/brand_products/Babyhug"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Babyhug' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,40",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Babyhug' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Babyhug' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This reque"
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+   "title": "Automation Exercise - Allen Solly Junior Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 1070,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/13",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/19",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/24",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior"
+    },
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Allen%20Solly%20Junior' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Ro",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Allen%20Solly%20Junior' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Op",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Allen%20Solly%20Junior' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Ab"
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/brand_products/Kookie%20Kids",
+   "title": "Automation Exercise - Kookie Kids Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 1042,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/14",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/18",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/20",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/brand_products/Kookie%20Kids"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Kookie%20Kids' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Kookie%20Kids' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:4",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Kookie%20Kids' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This"
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/brand_products/Biba",
+   "title": "Automation Exercise - Biba Products",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 1121,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": "Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/product_details/21",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/22",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/23",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/39",
+     "text": "View Product",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/product_details/40",
+     "text": "View Product",
+     "visible": true
+    }
+   ],
+   "forms": [
+    {
+     "name": "form0",
+     "selector": "form:nth-of-type(1)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/brand_products/Biba"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Biba' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400it",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Biba' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,30",
+    "Mixed Content: The page at 'https://automationexercise.com/brand_products/Biba' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request "
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/product_details/1",
+   "title": "Automation Exercise - Product Details",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 1095,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    }
+   ],
+   "forms": [
+    {
+     "name": "review-form",
+     "selector": "#review-form",
+     "action": "",
+     "method": "GET",
+     "fields": [
+      {
+       "name": "name",
+       "type": "text",
+       "selector": "#name",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your Name",
+       "label": ""
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "selector": "#email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Email Address",
+       "label": ""
+      },
+      {
+       "name": "review",
+       "type": "textarea",
+       "selector": "#review",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Add Review Here!",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#button-review"
+    },
+    {
+     "name": "form1",
+     "selector": "form:nth-of-type(2)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/product_details/1"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/product_details/1' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400ital",
+    "Mixed Content: The page at 'https://automationexercise.com/product_details/1' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,",
+    "Mixed Content: The page at 'https://automationexercise.com/product_details/1' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request ha"
+   ],
+   "error": ""
+  },
+  {
+   "url": "https://automationexercise.com/product_details/2",
+   "title": "Automation Exercise - Product Details",
+   "depth": 1,
+   "source": "https://automationexercise.com",
+   "status": 200,
+   "load_ms": 1066,
+   "links": [
+    {
+     "href": "https://automationexercise.com/",
+     "text": "",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/",
+     "text": "Home",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/products",
+     "text": " Products",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "Cart",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/login",
+     "text": "Signup / Login",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/test_cases",
+     "text": "Test Cases",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/api_list",
+     "text": "API Testing",
+     "visible": true
+    },
+    {
+     "href": "https://www.youtube.com/c/AutomationExercise",
+     "text": "Video Tutorials",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/contact_us",
+     "text": "Contact us",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/category_products/1",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/2",
+     "text": "Tops",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/7",
+     "text": "Saree",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/3",
+     "text": "Tshirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/6",
+     "text": "Jeans",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/4",
+     "text": "Dress",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/category_products/5",
+     "text": "Tops & Shirts",
+     "visible": false
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Polo",
+     "text": "(6)\nPOLO",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/H&M",
+     "text": "(5)\nH&M",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Madame",
+     "text": "(5)\nMADAME",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Mast%20&%20Harbour",
+     "text": "(3)\nMAST & HARBOUR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Babyhug",
+     "text": "(4)\nBABYHUG",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Allen%20Solly%20Junior",
+     "text": "(3)\nALLEN SOLLY JUNIOR",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Kookie%20Kids",
+     "text": "(3)\nKOOKIE KIDS",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/brand_products/Biba",
+     "text": "(5)\nBIBA",
+     "visible": true
+    },
+    {
+     "href": "https://automationexercise.com/view_cart",
+     "text": "View Cart",
+     "visible": false
+    }
+   ],
+   "forms": [
+    {
+     "name": "review-form",
+     "selector": "#review-form",
+     "action": "",
+     "method": "GET",
+     "fields": [
+      {
+       "name": "name",
+       "type": "text",
+       "selector": "#name",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your Name",
+       "label": ""
+      },
+      {
+       "name": "email",
+       "type": "email",
+       "selector": "#email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Email Address",
+       "label": ""
+      },
+      {
+       "name": "review",
+       "type": "textarea",
+       "selector": "#review",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Add Review Here!",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#button-review"
+    },
+    {
+     "name": "form1",
+     "selector": "form:nth-of-type(2)",
+     "action": "",
+     "method": "POST",
+     "fields": [
+      {
+       "name": "susbscribe_email",
+       "type": "email",
+       "selector": "#susbscribe_email",
+       "required": true,
+       "maxlength": null,
+       "placeholder": "Your email address",
+       "label": ""
+      }
+     ],
+     "submit_selector": "#subscribe"
+    }
+   ],
+   "apis": [
+    {
+     "method": "POST",
+     "url": "https://automationexercise.com/cdn-cgi/rum?",
+     "page": "https://automationexercise.com/product_details/2"
+    }
+   ],
+   "console_errors": [
+    "Mixed Content: The page at 'https://automationexercise.com/product_details/2' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400ital",
+    "Mixed Content: The page at 'https://automationexercise.com/product_details/2' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,",
+    "Mixed Content: The page at 'https://automationexercise.com/product_details/2' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request ha"
+   ],
+   "error": ""
+  }
+ ]
+}

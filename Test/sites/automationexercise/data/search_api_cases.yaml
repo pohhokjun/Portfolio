@@ -1,0 +1,31 @@
+# 接口搜索用例数据（对应 API 5/6）
+cases:
+  - id: API_SEARCH_001
+    title: 搜索接口-关键词top
+    keyword: "top"
+    expect_code: 200
+    expect_has_result: true
+
+  - id: API_SEARCH_002
+    title: 搜索接口-关键词tshirt
+    keyword: "tshirt"
+    expect_code: 200
+    expect_has_result: true
+
+  - id: API_SEARCH_003
+    title: 搜索接口-关键词jean
+    keyword: "jean"
+    expect_code: 200
+    expect_has_result: true
+
+  - id: API_SEARCH_004
+    title: 搜索接口-不存在的关键词
+    keyword: "qqqzzz999notexist"
+    expect_code: 200
+    expect_has_result: false
+
+  - id: API_SEARCH_005
+    title: 搜索接口-空字符串
+    keyword: ""
+    expect_code: 200
+    expect_has_result: false

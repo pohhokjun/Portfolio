@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "sales_db": {"command": "{python}", "args": ["{业务}/mcp/销售库.py"]}
+  }
+}

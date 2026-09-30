@@ -1,0 +1,1005 @@
+generated_at: '2026-09-04 05:18:35'
+base_url: https://automationexercise.com
+cases:
+  smoke:
+  - id: smoke_794f6d0e
+    title: 页面可访问 - Automation Exercise
+    url: https://automationexercise.com
+    expect_status:
+    - 200
+    forbidden_text: &id001
+    - 500 Internal Server Error
+    - 502 Bad Gateway
+    - 504 Gateway Time-out
+    - Traceback
+    - SQLSTATE
+    - undefined index
+    - 系统异常
+    - 服务器错误
+    check_console: true
+    enabled: true
+  - id: smoke_bae4eba1
+    title: 页面可访问 - Automation Exercise
+    url: https://automationexercise.com/
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_8a9a7c6a
+    title: 页面可访问 - Automation Exercise - All Products
+    url: https://automationexercise.com/products
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_b653fa6d
+    title: 页面可访问 - Automation Exercise - Checkout
+    url: https://automationexercise.com/view_cart
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_a6d19c17
+    title: 页面可访问 - Automation Exercise - Signup / Login
+    url: https://automationexercise.com/login
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_09efe45c
+    title: 页面可访问 - Automation Practice Website for UI Testing - Test Cases
+    url: https://automationexercise.com/test_cases
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_e54154ba
+    title: 页面可访问 - Automation Practice for API Testing
+    url: https://automationexercise.com/api_list
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_1aa71350
+    title: 页面可访问 - Automation Exercise - Contact Us
+    url: https://automationexercise.com/contact_us
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_c2f4f1b8
+    title: 页面可访问 - Automation Exercise - Dress Products
+    url: https://automationexercise.com/category_products/1
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_3c35254d
+    title: 页面可访问 - Automation Exercise - Tops Products
+    url: https://automationexercise.com/category_products/2
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_47b20719
+    title: 页面可访问 - Automation Exercise - Saree Products
+    url: https://automationexercise.com/category_products/7
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_82cb40ff
+    title: 页面可访问 - Automation Exercise - Tshirts Products
+    url: https://automationexercise.com/category_products/3
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_16605bc7
+    title: 页面可访问 - Automation Exercise - Jeans Products
+    url: https://automationexercise.com/category_products/6
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_c89b5013
+    title: 页面可访问 - Automation Exercise - Dress Products
+    url: https://automationexercise.com/category_products/4
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_a0a3ee97
+    title: 页面可访问 - Automation Exercise - Tops & Shirts Products
+    url: https://automationexercise.com/category_products/5
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_27f22808
+    title: 页面可访问 - Automation Exercise - Polo Products
+    url: https://automationexercise.com/brand_products/Polo
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_2bf7d752
+    title: 页面可访问 - Automation Exercise - H&M Products
+    url: https://automationexercise.com/brand_products/H&M
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_9c4f919d
+    title: 页面可访问 - Automation Exercise - Madame Products
+    url: https://automationexercise.com/brand_products/Madame
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_5bbb2dc2
+    title: 页面可访问 - Automation Exercise - Mast & Harbour Products
+    url: https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_145949f9
+    title: 页面可访问 - Automation Exercise - Babyhug Products
+    url: https://automationexercise.com/brand_products/Babyhug
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_37722e35
+    title: 页面可访问 - Automation Exercise - Allen Solly Junior Products
+    url: https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_27dbe304
+    title: 页面可访问 - Automation Exercise - Kookie Kids Products
+    url: https://automationexercise.com/brand_products/Kookie%20Kids
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_753b162b
+    title: 页面可访问 - Automation Exercise - Biba Products
+    url: https://automationexercise.com/brand_products/Biba
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_46230d76
+    title: 页面可访问 - Automation Exercise - Product Details
+    url: https://automationexercise.com/product_details/1
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  - id: smoke_a02571eb
+    title: 页面可访问 - Automation Exercise - Product Details
+    url: https://automationexercise.com/product_details/2
+    expect_status:
+    - 200
+    forbidden_text: *id001
+    check_console: true
+    enabled: true
+  link:
+  - id: link_794f6d0e
+    title: 链接可用性 - Automation Exercise
+    page: https://automationexercise.com
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    enabled: true
+  - id: link_bae4eba1
+    title: 链接可用性 - Automation Exercise
+    page: https://automationexercise.com/
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    enabled: true
+  - id: link_8a9a7c6a
+    title: 链接可用性 - Automation Exercise - All Products
+    page: https://automationexercise.com/products
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/1
+    - https://automationexercise.com/product_details/2
+    - https://automationexercise.com/product_details/3
+    - https://automationexercise.com/product_details/4
+    - https://automationexercise.com/product_details/5
+    enabled: true
+  - id: link_b653fa6d
+    title: 链接可用性 - Automation Exercise - Checkout
+    page: https://automationexercise.com/view_cart
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    enabled: true
+  - id: link_a6d19c17
+    title: 链接可用性 - Automation Exercise - Signup / Login
+    page: https://automationexercise.com/login
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    enabled: true
+  - id: link_09efe45c
+    title: 链接可用性 - Automation Practice Website for UI Testing - Test Cases
+    page: https://automationexercise.com/test_cases
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    enabled: true
+  - id: link_e54154ba
+    title: 链接可用性 - Automation Practice for API Testing
+    page: https://automationexercise.com/api_list
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/api/productsList
+    - https://automationexercise.com/api/productsList
+    - https://automationexercise.com/api/brandsList
+    - https://automationexercise.com/api/brandsList
+    - https://automationexercise.com/api/searchProduct
+    - https://automationexercise.com/api/searchProduct
+    - https://automationexercise.com/api/verifyLogin
+    - https://automationexercise.com/api/verifyLogin
+    - https://automationexercise.com/api/verifyLogin
+    - https://automationexercise.com/api/verifyLogin
+    - https://automationexercise.com/api/createAccount
+    - https://automationexercise.com/api/deleteAccount
+    - https://automationexercise.com/api/updateAccount
+    - https://automationexercise.com/api/getUserDetailByEmail
+    enabled: true
+  - id: link_1aa71350
+    title: 链接可用性 - Automation Exercise - Contact Us
+    page: https://automationexercise.com/contact_us
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    enabled: true
+  - id: link_c2f4f1b8
+    title: 链接可用性 - Automation Exercise - Dress Products
+    page: https://automationexercise.com/category_products/1
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/3
+    - https://automationexercise.com/product_details/4
+    - https://automationexercise.com/product_details/38
+    enabled: true
+  - id: link_3c35254d
+    title: 链接可用性 - Automation Exercise - Tops Products
+    page: https://automationexercise.com/category_products/2
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/1
+    - https://automationexercise.com/product_details/5
+    - https://automationexercise.com/product_details/6
+    - https://automationexercise.com/product_details/7
+    enabled: true
+  - id: link_47b20719
+    title: 链接可用性 - Automation Exercise - Saree Products
+    page: https://automationexercise.com/category_products/7
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/39
+    - https://automationexercise.com/product_details/40
+    - https://automationexercise.com/product_details/41
+    enabled: true
+  - id: link_82cb40ff
+    title: 链接可用性 - Automation Exercise - Tshirts Products
+    page: https://automationexercise.com/category_products/3
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/2
+    - https://automationexercise.com/product_details/28
+    - https://automationexercise.com/product_details/29
+    - https://automationexercise.com/product_details/30
+    enabled: true
+  - id: link_16605bc7
+    title: 链接可用性 - Automation Exercise - Jeans Products
+    page: https://automationexercise.com/category_products/6
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/33
+    - https://automationexercise.com/product_details/35
+    - https://automationexercise.com/product_details/37
+    enabled: true
+  - id: link_c89b5013
+    title: 链接可用性 - Automation Exercise - Dress Products
+    page: https://automationexercise.com/category_products/4
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/16
+    - https://automationexercise.com/product_details/19
+    - https://automationexercise.com/product_details/20
+    - https://automationexercise.com/product_details/21
+    enabled: true
+  - id: link_a0a3ee97
+    title: 链接可用性 - Automation Exercise - Tops & Shirts Products
+    page: https://automationexercise.com/category_products/5
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/11
+    - https://automationexercise.com/product_details/12
+    - https://automationexercise.com/product_details/13
+    - https://automationexercise.com/product_details/14
+    enabled: true
+  - id: link_27f22808
+    title: 链接可用性 - Automation Exercise - Polo Products
+    page: https://automationexercise.com/brand_products/Polo
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/1
+    - https://automationexercise.com/product_details/8
+    - https://automationexercise.com/product_details/29
+    - https://automationexercise.com/product_details/30
+    enabled: true
+  - id: link_2bf7d752
+    title: 链接可用性 - Automation Exercise - H&M Products
+    page: https://automationexercise.com/brand_products/H&M
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/2
+    - https://automationexercise.com/product_details/6
+    - https://automationexercise.com/product_details/28
+    - https://automationexercise.com/product_details/31
+    enabled: true
+  - id: link_9c4f919d
+    title: 链接可用性 - Automation Exercise - Madame Products
+    page: https://automationexercise.com/brand_products/Madame
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/3
+    - https://automationexercise.com/product_details/4
+    - https://automationexercise.com/product_details/7
+    - https://automationexercise.com/product_details/38
+    enabled: true
+  - id: link_5bbb2dc2
+    title: 链接可用性 - Automation Exercise - Mast & Harbour Products
+    page: https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/5
+    - https://automationexercise.com/product_details/42
+    - https://automationexercise.com/product_details/43
+    enabled: true
+  - id: link_145949f9
+    title: 链接可用性 - Automation Exercise - Babyhug Products
+    page: https://automationexercise.com/brand_products/Babyhug
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/11
+    - https://automationexercise.com/product_details/12
+    - https://automationexercise.com/product_details/15
+    - https://automationexercise.com/product_details/16
+    enabled: true
+  - id: link_37722e35
+    title: 链接可用性 - Automation Exercise - Allen Solly Junior Products
+    page: https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/13
+    - https://automationexercise.com/product_details/19
+    - https://automationexercise.com/product_details/24
+    enabled: true
+  - id: link_27dbe304
+    title: 链接可用性 - Automation Exercise - Kookie Kids Products
+    page: https://automationexercise.com/brand_products/Kookie%20Kids
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/14
+    - https://automationexercise.com/product_details/18
+    - https://automationexercise.com/product_details/20
+    enabled: true
+  - id: link_753b162b
+    title: 链接可用性 - Automation Exercise - Biba Products
+    page: https://automationexercise.com/brand_products/Biba
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/products
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/product_details/21
+    - https://automationexercise.com/product_details/22
+    - https://automationexercise.com/product_details/23
+    - https://automationexercise.com/product_details/39
+    enabled: true
+  - id: link_46230d76
+    title: 链接可用性 - Automation Exercise - Product Details
+    page: https://automationexercise.com/product_details/1
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    enabled: true
+  - id: link_a02571eb
+    title: 链接可用性 - Automation Exercise - Product Details
+    page: https://automationexercise.com/product_details/2
+    links:
+    - https://automationexercise.com/
+    - https://automationexercise.com/
+    - https://automationexercise.com/products
+    - https://automationexercise.com/view_cart
+    - https://automationexercise.com/login
+    - https://automationexercise.com/test_cases
+    - https://automationexercise.com/api_list
+    - https://www.youtube.com/c/AutomationExercise
+    - https://automationexercise.com/contact_us
+    - https://automationexercise.com/category_products/1
+    - https://automationexercise.com/category_products/2
+    - https://automationexercise.com/category_products/7
+    - https://automationexercise.com/category_products/3
+    - https://automationexercise.com/category_products/6
+    - https://automationexercise.com/category_products/4
+    - https://automationexercise.com/category_products/5
+    - https://automationexercise.com/brand_products/Polo
+    - https://automationexercise.com/brand_products/H&M
+    - https://automationexercise.com/brand_products/Madame
+    - https://automationexercise.com/brand_products/Mast%20&%20Harbour
+    - https://automationexercise.com/brand_products/Babyhug
+    - https://automationexercise.com/brand_products/Allen%20Solly%20Junior
+    - https://automationexercise.com/brand_products/Kookie%20Kids
+    - https://automationexercise.com/brand_products/Biba
+    - https://automationexercise.com/view_cart
+    enabled: true
+  api: []

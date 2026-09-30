@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GET /api/brandsList 响应契约",
+  "type": "object",
+  "required": ["responseCode", "brands"],
+  "properties": {
+    "responseCode": { "type": "integer", "enum": [200] },
+    "brands": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "brand"],
+        "properties": {
+          "id":    { "type": "integer", "minimum": 1 },
+          "brand": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

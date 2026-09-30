@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "POST /api/searchProduct 响应契约",
+  "description": "搜索接口。搜不到结果时 products 允许为空数组，但字段本身必须在。",
+  "type": "object",
+  "required": ["responseCode", "products"],
+  "properties": {
+    "responseCode": { "type": "integer" },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "price"],
+        "properties": {
+          "id":    { "type": "integer" },
+          "name":  { "type": "string" },
+          "price": { "type": "string" }
+        }
+      }
+    }
+  }
+}

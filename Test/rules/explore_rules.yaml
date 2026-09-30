@@ -1,0 +1,57 @@
+# ============================================================
+# 站点探索规则
+#
+# ★ danger_keywords 是最重要的一段 ★
+#   爬虫在测试环境乱点可能删数据，在生产环境乱点会出事故。
+#   这个黑名单是安全底线，绝不能删。
+# ============================================================
+
+# 只爬包含这些片段的 URL。留空表示不限制
+include_patterns: []
+
+# 不爬包含这些片段的 URL
+exclude_patterns:
+  - "/logout"
+  - "/signout"
+  - "/download"
+  - "/export"
+  - "/print"
+  - "/delete_account"
+
+# ★ 危险关键词：URL 里出现这些词一律不访问 ★
+danger_keywords:
+  - delete
+  - remove
+  - destroy
+  - reset
+  - withdraw
+  - payout
+  - cancel
+  - 提现
+  - 删除
+  - 清空
+  - 注销
+
+# 生成用例时跳过的 URL
+skip_url_patterns:
+  - "/static/"
+  - "/assets/"
+  - "/media/"
+  # CDN 自己注入的埋点接口，域名和被测系统一样，但不是业务接口。
+  # 实测 Cloudflare 的 /cdn-cgi/rum 直接返回 404，
+  # 生成成用例就是一条永远红着、又和产品毫无关系的假失败。
+  - "/cdn-cgi/"
+
+# 页面上出现这些文字视为异常
+forbidden_text:
+  - "500 Internal Server Error"
+  - "502 Bad Gateway"
+  - "504 Gateway Time-out"
+  - "Traceback"
+  - "SQLSTATE"
+  - "undefined index"
+  - "系统异常"
+  - "服务器错误"
+
+# 只对这些 URL 做视觉基线比对。留空表示全部
+visual_baseline_urls: []

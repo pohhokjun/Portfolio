@@ -1,0 +1,28 @@
+# ============================================================
+# 新被测系统模板
+#
+# 加一个站 = 复制这个文件夹，改名（英文小写，要当 Python 包名用），改下面几行。
+# 框架代码一行不用动。只写和 config/defaults.yaml 不一样的部分。
+#
+#   pytest sites/<名>              跑这个站自己的用例
+#   pytest testcases --site=<名>   通用检查（质量属性 / 巡检）对着它跑
+# ============================================================
+name: 示例站
+base_url: "https://example.com"
+api_url: "https://example.com/api"
+# mock: sites.<名>.mock          # 有假接口就写，pytest --mock 时自动起
+
+# account:
+#   email: ""
+#   password: ""
+
+# 站点适配器：填了 testcases/quality 就能对它跑（字段说明见 config/site_profile.py）
+# profile:
+#   domains: ["example.com"]
+#   pages:
+#     - [首页, /]
+#   ready_marker: "body"
+
+# envs:
+#   prod:
+#     base_url: "https://prod.example.com"

@@ -1,0 +1,27 @@
+# ============================================================
+# 按 URL 匹配的额外断言规则
+# 巡检用例执行时，会根据 URL 匹配到对应规则追加断言
+# ============================================================
+
+global:
+  forbidden_text:
+    - "Traceback"
+    - "SQLSTATE"
+    - "Warning: "
+    - "Notice: "
+
+by_url:
+  - match: "/login"
+    expect:
+      selector_exists: ['input[data-qa="login-email"]']
+      text_not_contains: ["未授权", "Unauthorized"]
+
+  - match: "/products"
+    expect:
+      selector_exists: [".features_items"]
+
+severity:
+  dead_link: FAIL
+  console_error: WARN
+  slow_page: WARN
+  visual_changed: FAIL

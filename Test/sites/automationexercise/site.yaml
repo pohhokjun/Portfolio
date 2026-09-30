@@ -1,0 +1,64 @@
+# ============================================================
+# AutomationExercise —— 服务端渲染的电商练习站，功能测试主力
+#   UI / 接口 / 契约 / 性能 / 安全 / 视觉都打它
+#   注意：有 Imunify360 机器人防护，跑密了封 IP（框架会识别并 SKIP）
+# ============================================================
+name: AutomationExercise
+base_url: "https://automationexercise.com"
+api_url: "https://automationexercise.com/api"
+mock: sites.automationexercise.mock      # pytest --mock 时 api_url 换成这个假服务
+
+# ---------- 测试账号（登录用例用） ----------
+account:
+  email: "qa_portfolio_demo@example.com"
+  password: "Test@12345"
+  name: "QA Demo"
+
+# ---------- 站点适配器：质量属性测试（testcases/quality）靠它认这个站 ----------
+# 检查逻辑和站点无关（「页面不许横向溢出」对谁都成立），验收点是站点专属的。
+# 说明见 config/site_profile.py
+profile:
+  domains: ["automationexercise.com"]
+  login: null                         # 商品页公开可访问，质量检查不用登录
+  pages:
+    - [首页, /]
+    - [商品列表, /products]
+    - [登录注册, /login]
+    - [购物车, /view_cart]
+  nav:
+    商品: 'a[href="/products"]'
+    购物车: 'a[href="/view_cart"]'
+    登录: 'a[href="/login"]'
+  ready_marker: 'a[href="/products"]'
+  product_page: /products
+  product_card: ".features_items .product-image-wrapper"
+  product_name: ".features_items .productinfo p"
+  product_price: ".features_items .productinfo h2"
+  product_image: ".features_items img"
+  add_to_cart: ".features_items .productinfo .add-to-cart"
+  added_marker: "#cartModal .modal-content"   # 加购后弹出「Added!」框
+  cart_link: '#cartModal a[href="/view_cart"]'
+  cart_url: "**/view_cart"
+  cart_item: "#cart_info_table tbody tr"
+  # 第三方域名：挂了也不该影响主功能，容错用例会把它们全部阻断
+  third_party:
+    - "**googlesyndication.com/**"
+    - "**doubleclick.net/**"
+    - "**googletagmanager.com/**"
+    - "**google-analytics.com/**"
+    - "**adtrafficquality.google/**"
+    - "**fundingchoicesmessages.google.com/**"
+    - "**static.enzymic.co/**"
+    - "**maps.googleapis.com/**"
+
+# ---------- 环境差异：只写和 test 不一样的 ----------
+envs:
+  prod:
+    viewport:
+      width: 1920
+      height: 1080
+    visual:
+      diff_threshold: 0.01      # 生产环境更严格
+    explore:
+      max_pages: 15
+      delay: 1.5                # 生产环境更保守

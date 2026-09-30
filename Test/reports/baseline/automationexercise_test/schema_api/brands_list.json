@@ -1,0 +1,9 @@
+{
+  "brands": [
+    {
+      "brand": "str",
+      "id": "int"
+    }
+  ],
+  "responseCode": "int"
+}

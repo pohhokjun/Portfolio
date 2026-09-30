@@ -1,0 +1,6 @@
+# 覆盖率只算「被测代码」：站点的用例目录、fixture 接线（conftest）和模板不是，算进去会把数字拉低
+[run]
+omit =
+    sites/*/tests/*
+    sites/*/conftest.py
+    sites/_*/*

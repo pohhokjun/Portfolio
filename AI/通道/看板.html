@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>业务 Agent 看板</title>
+<style>
+:root{--bg:#f6f6f4;--card:#fff;--fg:#1c1c1a;--mute:#6d6d67;--line:#e3e2dd;--acc:#2f6f5e;--warn:#b5651d;--bad:#b3261e}
+@media (prefers-color-scheme:dark){:root{--bg:#161615;--card:#20201e;--fg:#ecebe6;--mute:#9b9a93;--line:#34332f;--acc:#6fbfa6;--warn:#e0a060;--bad:#f28b82}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.6 system-ui,"Microsoft YaHei",sans-serif}
+header{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+h1{font-size:17px;margin:0}.dot{width:9px;height:9px;border-radius:50%;display:inline-block;background:var(--bad)}.dot.on{background:var(--acc)}
+main{max-width:1100px;margin:0 auto;padding:16px}.meta{color:var(--mute);font-size:13px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin-bottom:12px}
+.kpi b{display:block;font-size:20px}h2{font-size:14px;margin:0 0 8px}
+table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.row{cursor:pointer}tr.row:hover{background:var(--bg)}
+textarea,input{font:inherit;width:100%;padding:8px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg)}
+button{font:inherit;padding:6px 14px;border-radius:6px;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer}
+button.go{background:var(--acc);color:#fff;border:0}.ok{color:var(--acc)}.err{color:var(--bad)}.warn{color:var(--warn)}
+.row2{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}pre{white-space:pre-wrap;margin:0;font:12px/1.5 ui-monospace,Consolas,monospace}
+</style>
+</head>
+<body>
+<header><h1>业务 Agent</h1><span class="dot" id="dot"></span><span class="meta" id="head"></span></header>
+<main>
+<div class="kpis" id="kpis"></div>
+<div class="kpis" id="metrics"></div>
+<div class="card" id="alerts" hidden></div>
+<div class="card" id="pending" hidden></div>
+<div class="card"><h2>派活</h2><textarea id="need" rows="3" placeholder="写需求，如：把 销售.xlsx 按地区汇总成表"></textarea>
+<div class="row2"><input id="sess" placeholder="会话（可选，同一会话接着上次聊）" style="flex:1"><input type="file" id="files" multiple title="附件：图片模型直接看" style="width:auto"><button class="go" onclick="submit()">提交</button></div><div id="msg" class="meta"></div></div>
+<div class="card" id="flows" hidden></div>
+<div class="card"><h2>最近的单</h2><table id="recent"></table></div>
+<div class="card" id="detail" hidden></div>
+<div class="card" id="sched" hidden></div>
+<div class="card" id="evalc" hidden></div>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let tok='';try{tok=localStorage.tok||''}catch(e){}
+async function api(u,b){const h={'X-Token':tok};if(b)h['Content-Type']='application/json';
+  const r=await fetch(u,b?{method:'POST',headers:h,body:JSON.stringify(b)}:{headers:h});
+  if(r.status===401){tok=prompt('输入你的令牌（管理员用 python Work.py 用户 加 … 发给你）')||'';try{localStorage.tok=tok}catch(e){}throw new Error('令牌')}
+  return r.json()}
+let open='';
+async function load(){
+  let s;try{s=await api('/api/status')}catch(e){$('dot').className='dot';$('head').textContent='连不上服务';return}
+  const alive=Date.now()/1000-(s.心跳.时间||0)<30;$('dot').className='dot'+(alive?' on':'');
+  const m=await api('/api/metrics');const k=m.指标;
+  $('metrics').innerHTML=[['省下工时',k.省下工时+' h'],['一次做成率',k.一次做成率],['人工接管率',k.人工接管率],['审批通过率',k.审批通过率],['缓存命中率',k.缓存命中率],['平均耗时',k.平均耗时秒+' s']]
+    .map(([a,v])=>`<div class="card kpi">${a}<b>${esc(v)}</b></div>`).join('');
+  $('alerts').hidden=!m.告警.length;$('alerts').innerHTML='<h2 class="err">最近告警</h2><table>'+m.告警.slice(0,8).map(a=>`<tr><td class="meta" style="white-space:nowrap">${esc(a.时间)}</td><td class="${a.级别==='提醒'?'warn':'err'}">${esc(a.级别)}</td><td>${esc(a.文本)}</td></tr>`).join('')+'</table>';
+  const fl=Object.entries(s.流程);$('flows').hidden=!fl.length;
+  $('flows').innerHTML='<h2>固定流程</h2><table>'+fl.map(([n,d])=>`<tr><td><b>${esc(n)}</b></td><td>${esc(d)}</td><td><button onclick="runFlow('${esc(n)}')">跑</button></td></tr>`).join('')+'</table>';
+  $('head').textContent=`${s.我.名} · ${s.业务} · 人设 ${s.人设} · 大脑 ${s.大脑}${s.备用.length?' → '+s.备用.join(' → '):''} · ${s.心跳.忙着?'在做 '+s.心跳.编号:'空闲'} · 排队 ${s.排队}`;
+  const t=s.统计;$('kpis').innerHTML=[['今日花费',`$${t.今日花费} / ${t.每日上限}`],['今日单数',t.今日单数],['总单数',t.总单数],['成功率',t.成功率],['平均轮数',t.平均轮数],['总花费',`$${t.总花费}`]]
+    .map(([k,v])=>`<div class="card kpi">${k}<b>${esc(v)}</b></div>`).join('');
+  $('pending').hidden=!s.待批.length;
+  $('pending').innerHTML='<h2 class="warn">等你处理</h2>'+s.待批.map(a=>`<div style="margin-bottom:10px"><b>${a.号}</b> · ${a.编号} · ${a.类型==='批'?'要批准':'要回答'}<pre>${esc(a.内容)}</pre>
+    <div class="row2"><input id="t_${a.号}" placeholder="${a.类型==='批'?'理由（可空）':'你的回答'}" style="flex:1">
+    ${a.类型==='批'?`<button class="go" onclick="reply('${a.号}',true)">批准</button><button onclick="reply('${a.号}',false)">拒绝</button>`:`<button class="go" onclick="reply('${a.号}',true)">回答</button>`}</div></div>`).join('');
+  $('recent').innerHTML='<tr><th>编号</th><th>时间</th><th>来源</th><th>需求</th><th>结果</th><th>轮数</th><th>花费</th></tr>'+s.最近.map(u=>`<tr class="row" onclick="show('${u.编号}')">
+    <td>${u.编号}</td><td>${esc(u.日期||'')} ${esc(u.时间||'')}</td><td>${esc(u.来源)}</td><td>${esc((u.需求||'').slice(0,60))}</td>
+    <td class="${u.结果==='成'?'ok':u.结果==='出错'?'err':'warn'}">${s.在跑[u.编号]?'在跑':esc(u.结果)}</td><td>${u.轮数??''}</td><td>${u.花费!=null?'$'+(+u.花费).toFixed(3):''}</td></tr>`).join('');
+  $('sched').hidden=!s.定时.length;$('sched').innerHTML='<h2>定时</h2><table>'+s.定时.map(x=>`<tr><td>${esc(x.时间)}</td><td>${esc(x.需求)}</td><td class="meta">${esc(x.id)}</td></tr>`).join('')+'</table>';
+  const e=s.评测;$('evalc').hidden=!e;if(e)$('evalc').innerHTML=`<h2>评测 <span class="meta">${esc(e.时间)} · 大脑 ${esc(e.大脑)} · 通过 ${e.通过率} · 平均 ${e.平均轮数} 轮 · $${e.总花费}</span></h2><table>`+
+    e.明细.map(x=>`<tr><td class="${x.通过?'ok':'err'}">${x.通过?'✓':'✗'}</td><td>${esc(x.名)}</td><td>${x.轮数} 轮</td><td>$${x.花费}</td><td class="meta">${esc(x.没过.join('；'))}</td></tr>`).join('')+'</table>';
+  if(open)show(open,true);
+}
+async function show(id,quiet){open=id;const u=await api('/api/task/'+encodeURIComponent(id));if(u.错)return;
+  $('detail').hidden=false;$('detail').innerHTML=`<h2>${u.编号} <span class="meta">${esc(u.大脑||'')} ${esc(u.模型||'')} ${u.在跑?'· 在跑':''}</span></h2><pre>${esc(u.需求)}</pre>
+  ${u.出错?`<p class="err">${esc(u.出错)}</p>`:''}${(u.交付||[]).map(d=>`<div class="card"><pre>${esc(d.文本)}</pre>${d.文件.map(f=>`<div class="meta">📎 ${esc(f)}</div>`).join('')}</div>`).join('')}
+  <table>${u.轨迹.map(x=>`<tr><td class="meta" style="white-space:nowrap">${esc(x.时间.slice(11))}</td><td>${esc(x.类型)}</td><td>${esc(x.动作||x.名||'')}</td><td><pre>${esc(x.说明||x.结果||x.需求||x.内容||x.出错||x.原因||'')}</pre></td></tr>`).join('')}</table>
+  ${u.结构化?`<div class="card"><b>结构化结果</b><pre>${esc(JSON.stringify(u.结构化,null,1))}</pre></div>`:''}
+  ${(u.步骤||[]).length?`<div class="card"><b>流程步骤</b><table>${u.步骤.map(x=>`<tr><td>${esc(x.名)}</td><td>${esc(x.状态)}</td><td><pre>${esc(JSON.stringify(x.输出??'')).slice(0,300)}</pre></td></tr>`).join('')}</table></div>`:''}`;
+  if(u.在跑&&!live){live=new EventSource('/api/task/'+encodeURIComponent(id)+'/stream?token='+encodeURIComponent(tok));   // 在跑的单实时推
+    live.addEventListener('步骤',()=>show(id,true));live.addEventListener('完成',()=>{live.close();live=null;load()});}
+  if(!quiet)$('detail').scrollIntoView({behavior:'smooth'})}
+let live=null;
+async function runFlow(n){const t=prompt(`流程「${n}」的输入（JSON），如 {"月份": 9}`,'{}');if(t===null)return;
+  let inp;try{inp=JSON.parse(t)}catch(e){alert('不是合法 JSON');return}
+  const r=await api('/api/flow/'+encodeURIComponent(n),{输入:inp});$('msg').textContent=r.编号?`流程已开始 ${r.编号}`:r.错;load();if(r.编号)setTimeout(()=>show(r.编号),800)}
+const b64=f=>new Promise((ok,no)=>{const r=new FileReader();r.onload=()=>ok({名:f.name,数据:r.result});r.onerror=no;r.readAsDataURL(f)});
+async function submit(){const n=$('need').value.trim(),fs=[...$('files').files];if(!n&&!fs.length)return;
+  const r=await api('/api/task',{需求:n||'看附件',会话:$('sess').value.trim()||null,附件:await Promise.all(fs.map(b64))});
+  $('msg').textContent=r.编号?`已提交 ${r.编号}`:r.错;$('need').value='';$('files').value='';load();if(r.编号)show(r.编号)}
+async function reply(h,ok){await api('/api/approve/'+h,{通过:ok,文本:$('t_'+h).value});load()}
+load();setInterval(load,4000);
+</script>
+</body>
+</html>

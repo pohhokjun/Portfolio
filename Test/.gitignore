@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+reports/allure-results/
+reports/allure-report/
+reports/screenshots/*
+reports/logs/*
+reports/state/*
+reports/report.html
+reports/测试总结.html
+reports/*.db
+reports/coverage/
+.coverage
+
+# 追踪文件：一条用例几百KB～1MB，跑一轮质量层就是 20MB+。
+# 它是排查用的临时产物，不是项目资产 —— 谁需要谁自己跑一遍生成。
+reports/traces/*
+
+!**/.gitkeep
+
+# 视觉基线是否入库看团队约定：
+# 入库 -> 团队共享基线，任何人跑都能比对
+# 不入库 -> 每人本地各自建立
+# 本项目选择入库，方便面试演示
+# reports/baseline/
+
+.idea/
+.vscode/
+.env

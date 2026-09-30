@@ -1,0 +1,8 @@
+# ============================================================
+# restful-booker —— 鉴权练习靶场
+#   主站的接口不带鉴权，token / Basic Auth / 越权这条链路只能在这个站上测。
+#   纯接口，没有页面要测。
+# ============================================================
+name: restful-booker
+base_url: "https://restful-booker.herokuapp.com"
+api_url: "https://restful-booker.herokuapp.com"

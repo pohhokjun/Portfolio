@@ -1,0 +1,43 @@
+# ============================================================
+# 自动化测试作品集项目 - 依赖清单
+# 安装命令： pip install -r requirements.txt
+# ============================================================
+
+# ---------- 测试框架核心 ----------
+pytest>=8.0                  # 测试框架本体，行业标准
+pytest-html>=4.1             # 简易HTML报告（Allure装好前的过渡方案）
+
+# ---------- 执行能力增强 ----------
+pytest-xdist>=3.5            # 并行执行： pytest -n 4
+pytest-rerunfailures>=14.0   # 失败自动重跑： --reruns 2
+pytest-repeat>=0.9           # 重复执行，用于排查偶发失败
+pytest-cov>=5.0              # 覆盖率统计。量的是框架自测覆盖了多少框架代码，
+                             # 跑法： scripts/run_cov.bat
+
+# ---------- UI 自动化 ----------
+playwright>=1.44             # 浏览器自动化（你已有经验）
+
+# ---------- 接口自动化 ----------
+requests>=2.31               # HTTP 请求库，接口测试标配
+jsonschema>=4.21             # 接口响应结构校验（进阶加分项）
+
+# ---------- 数据驱动 ----------
+PyYAML>=6.0                  # 读取 yaml 格式测试数据
+Faker>=25.0                  # 生成随机测试数据（邮箱/姓名/地址）
+
+# ---------- 报告 ----------
+allure-pytest>=2.13          # Allure结果采集（纯Python，不需要Java）
+                             # 注意：生成网页报告的 allure 命令行工具需要
+                             # 单独安装并依赖 Java，本项目第8周再装
+
+# ---------- 视觉回归（本项目自研能力） ----------
+Pillow>=10.0                 # 截图基线比对，逐像素 diff
+
+# ---------- 质量属性测试 ----------
+axe-playwright-python>=0.1.3 # 可访问性扫描。底层是 Deque 的 axe-core，
+                             # Chrome DevTools 的 Lighthouse 无障碍评分用的也是它
+                             # 跨浏览器还需要装内核：
+                             #   python -m playwright install chromium firefox webkit
+
+# ---------- 辅助 ----------
+python-dotenv>=1.0           # 读取 .env 敏感配置（账号密码不进Git）

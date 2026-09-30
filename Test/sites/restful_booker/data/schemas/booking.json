@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GET /booking/:id 响应契约",
+  "description": "单条预订。additionalneeds 是可选字段，不填就不返回，所以不进 required。",
+  "type": "object",
+  "required": ["firstname", "lastname", "totalprice", "depositpaid", "bookingdates"],
+  "properties": {
+    "firstname": { "type": "string", "minLength": 1 },
+    "lastname":  { "type": "string", "minLength": 1 },
+    "totalprice": { "type": "integer", "minimum": 0 },
+    "depositpaid": { "type": "boolean" },
+    "bookingdates": {
+      "type": "object",
+      "required": ["checkin", "checkout"],
+      "properties": {
+        "checkin":  { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "checkout": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
+      }
+    },
+    "additionalneeds": { "type": "string" }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "products": [
+    {
+      "brand": "str",
+      "category": {
+        "category": "str",
+        "usertype": {
+          "usertype": "..."
+        }
+      },
+      "id": "int",
+      "name": "str",
+      "price": "str"
+    }
+  ],
+  "responseCode": "int"
+}

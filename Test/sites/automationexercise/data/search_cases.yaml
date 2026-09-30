@@ -1,0 +1,50 @@
+# ============================================================
+# 商品搜索用例数据
+#
+# 设计方法：等价类划分 + 边界值分析
+#   有效类：存在的商品名、品类名、大小写混合
+#   无效类：不存在的词、空格、特殊字符、超长串
+# ============================================================
+
+cases:
+  - id: SEARCH_001
+    title: 搜索-存在的品类
+    method: 等价类划分-有效等价类
+    keyword: "top"
+    expect_found: true
+
+  - id: SEARCH_002
+    title: 搜索-存在的商品类型
+    method: 等价类划分-有效等价类
+    keyword: "tshirt"
+    expect_found: true
+
+  - id: SEARCH_003
+    title: 搜索-存在的品类jeans
+    method: 等价类划分-有效等价类
+    keyword: "jeans"
+    expect_found: true
+
+  - id: SEARCH_004
+    title: 搜索-大写关键词应不区分大小写
+    method: 等价类划分-边界特性
+    keyword: "TOP"
+    expect_found: true
+
+  - id: SEARCH_005
+    title: 搜索-不存在的关键词
+    method: 等价类划分-无效等价类
+    keyword: "zzzzqqqqxxxx9999"
+    expect_found: false
+
+  - id: SEARCH_006
+    title: 搜索-特殊字符
+    method: 等价类划分-无效等价类
+    keyword: "!@#$%^&*()"
+    expect_found: false
+
+  - id: SEARCH_007
+    title: 搜索-单字符
+    method: 边界值分析-下边界
+    keyword: "a"
+    expect_found: true

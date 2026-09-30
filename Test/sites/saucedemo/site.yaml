@@ -1,0 +1,108 @@
+# ============================================================
+# SauceDemo —— 质量属性测试（可访问性/响应式/性能/容错/安卓）的主力目标
+#
+# 为什么另开一个站而不是全挂在 AutomationExercise 上：
+#   1. 那个站有机器人防护，跑密了封 IP，一封整套 UI 用例全跑不了。
+#      自动化只挂在一个第三方站点上，是很脆弱的。
+#   2. SauceDemo 是 Sauce Labs 官方给自动化练手的，不封 IP。
+#   3. 它内置了几个「故意有缺陷」的账号，可以用来验证
+#      我们写的检查到底抓不抓得住问题。
+#
+# 这个站没有自己的用例目录：testcases/quality 的通用检查 + 下面的适配器就够了。
+# 用法： pytest testcases/quality --site=saucedemo
+# ============================================================
+name: SauceDemo
+base_url: "https://www.saucedemo.com"
+api_url: "https://www.saucedemo.com/api"    # 该站没有公开接口，接口用例不跑这个站
+
+account:
+  email: "standard_user"
+  password: "secret_sauce"
+  name: "Standard User"
+
+explore:
+  max_pages: 10
+  delay: 0.3
+
+# 这个站是 React 单页应用，资源少、没有广告，预算给得比默认严
+perf_budget:
+  lcp_ms: 2500
+  cls: 0.1
+  fcp_ms: 1800
+  ttfb_ms: 800
+  transfer_kb: 2048
+
+profile:
+  domains: ["saucedemo.com"]
+  # 登录规格交给适配器描述，用例层不用知道这个站怎么登
+  login:
+    path: /
+    username_input: "#user-name"
+    password_input: "#password"
+    submit: "#login-button"
+    success_url: "**/inventory.html"
+    logged_in_marker: "#shopping_cart_container"
+  pages:
+    - [登录页, /]
+    - [商品列表, /inventory.html]
+    - [购物车, /cart.html]
+    - [结算信息, /checkout-step-one.html]
+  # 登录页没有购物车图标，所以就绪判据分两套
+  public_pages: [/]
+  nav:
+    购物车: "#shopping_cart_container"
+    菜单: "#react-burger-menu-btn"
+    排序: ".product_sort_container"
+  ready_marker: "#shopping_cart_container"
+  public_ready_marker: "#login-button"
+  product_page: /inventory.html
+  product_card: ".inventory_item"
+  product_name: ".inventory_item_name"
+  product_price: ".inventory_item_price"
+  product_image: "img.inventory_item_img"
+  add_to_cart: "button[data-test^='add-to-cart']"
+  added_marker: "button[data-test^='remove']"   # 加购后按钮变 Remove
+  cart_link: "#shopping_cart_container a"
+  cart_url: "**/cart.html"
+  cart_item: ".cart_item"
+  third_party:
+    - "**google-analytics.com/**"
+    - "**backtrace.io/**"
+    - "**googletagmanager.com/**"
+  # Sauce Labs 故意埋进去的问题账号。用来验证「我们的检查抓不抓得住」
+  seeded_defect_users:
+    problem_user: 商品图全部错乱、部分交互失效
+    performance_glitch_user: 页面加载被人为拖慢
+    error_user: 部分操作会报错
+    visual_user: 存在视觉错位
+
+  # ---------------------------------------------------------
+  # 已知缺陷登记表
+  #
+  # ★ 为什么要有这个东西 ★
+  #   本套用例在这个站上确实抓到了真缺陷（下面几条都手工复核过）。
+  #   但被测系统是第三方的，我们改不了。
+  #
+  #   这时候有三种处理方式：
+  #     1. 让用例一直红着     → 报告永远是红的，很快没人再看
+  #     2. 把断言改松放过去   → 缺陷被永久掩盖，等于没测
+  #     3. 断言保持真实，登记为已知缺陷，报告里显示 xfailed  ← 正确做法
+  #
+  #   第 3 种的好处：缺陷是**被跟踪的**，不是被假装成通过的；
+  #   哪天对方修好了，用例会 XPASS，提醒你把登记摘掉。
+  #   真实项目里这一栏对应的就是缺陷管理系统里的单号。
+  # ---------------------------------------------------------
+  known_defects:
+    select-name: >-
+      已知缺陷：商品排序下拉框 <select class="product_sort_container">
+      没有 id、没有 aria-label、没有关联 <label>，屏幕阅读器只会念「组合框」，读不出这是干什么的。
+      违反 WCAG 4.1.2 Name, Role, Value（critical）。已手工复核确认。
+    keyboard-cart: >-
+      已知缺陷：购物车入口是 <a class="shopping_cart_link"> 但**没有 href**，
+      锚点没有 href 就不可聚焦，键盘完全到不了。实测连按 20 次 Tab 遍历完整页也进不去购物车。
+      违反 WCAG 2.1.1 Keyboard（serious）。已手工复核确认。
+    focus-visible: >-
+      已知缺陷：登录页的用户名、密码、登录按钮聚焦前后计算样式完全一致 ——
+      outline、box-shadow、边框、背景、文字颜色 8 项全部零变化，键盘用户根本看不出焦点停在哪。
+      违反 WCAG 2.4.7 Focus Visible（serious）。
+      复核方式：对同一元素取 blur 前和 focus 后的 computed style 做差集，变化项为 0。已手工复核确认。

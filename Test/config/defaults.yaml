@@ -1,0 +1,94 @@
+# ============================================================
+# 框架默认配置 —— 对任何被测系统都一样的部分
+#
+# 站点自己的东西（网址、账号、选择器、预算）写在 sites/<站>/site.yaml，
+# 那边写了就盖掉这里的。选站和环境：
+#   pytest --site=saucedemo --env=prod
+#   python -m tools.cli --site=saucedemo explore
+# ============================================================
+
+default_site: automationexercise   # 不传 --site 时测谁
+
+# ---------- 基础 ----------
+timeout: 30000              # 元素等待超时(毫秒)
+nav_timeout: 60000          # 页面跳转超时(毫秒)
+api_timeout: 20             # 接口超时(秒)
+headless: false             # 默认有头，看得见浏览器。CI 上会自动切回无头
+slow_mo: 0                  # 每步延迟(毫秒)，调试时可设 500
+viewport:
+  width: 1440
+  height: 900
+
+# ---------- 浏览器 profile ----------
+# 和桌面「浏览器\Test」快捷方式同一个 Chrome、同一个端口。
+# 端口通就连上去用，不通就清空 profile 按这套参数自己起 ——
+# 等效无痕：上一轮的登录态、缓存、localStorage 一律带不过来，保证「用例可重复」。
+browser_profile: "D:/Browser_Test"
+chrome_path: "C:/Program Files/Google/Chrome/Application/chrome.exe"
+cdp_port: 9444
+maximized: true             # 窗口最大化（不是 kiosk 全屏，不盖任务栏）
+
+# ---------- 账号池（并行执行防抢号） ----------
+# 需要多个真实账号时在站点的 site.yaml 里配 accounts，用 account fixture 自动租借
+account_pool:
+  lease_ttl: 1800           # 租约存活秒数，防进程崩溃后永久占用
+  wait_timeout: 60          # 等待空闲账号的超时
+accounts: []
+# 配置示例：
+# accounts:
+#   - username: "qa_user_01@example.com"
+#     password: "Test@12345"
+#     role: "admin"
+#     tags: ["full"]
+
+# ---------- 视觉回归基线 ----------
+visual:
+  auto_create: true         # 首次运行自动建立基线
+  diff_threshold: 0.02      # 差异超过 2% 判定为界面变化
+  pixel_threshold: 30       # 单像素差异阈值，低于此值视为渲染噪声
+  ignore_boxes: {}          # 屏蔽动态区域，避免误报
+  # 示例（遮住轮播图和时间戳）：
+  # ignore_boxes:
+  #   "*": [[0, 0, 1440, 200]]
+
+# ---------- 站点探索（爬虫） ----------
+explore:
+  start_urls: []            # 留空则用 base_url
+  max_pages: 25             # 最多爬多少页
+  max_depth: 2              # 最大深度
+  max_links_per_page: 100
+  max_apis_per_page: 30
+  strip_query: false
+  delay: 0.8                # 每页间隔秒数，避免触发反爬
+
+case_gen:
+  max_per_kind: 200         # 每类巡检用例最多生成多少条
+
+# ---------- 前端性能预算 ----------
+# 采集到的指标超过这里的数字就判失败。
+# 数值参考 Google Core Web Vitals 的「需改进」上限 ——
+# 先卡住最差的一档，站点优化之后再逐步收紧。
+perf_budget:
+  lcp_ms: 4000              # 最大内容绘制
+  cls: 0.25                 # 累计布局偏移
+  fcp_ms: 3000              # 首次内容绘制
+  ttfb_ms: 1500             # 首字节时间
+  transfer_kb: 4096         # 单页传输总量
+
+# ---------- 测试数据清理 ----------
+cleanup:
+  enabled: true
+  test_prefix: "qa_auto"    # 自动化数据统一前缀，方便识别
+
+# ---------- 结果通知 ----------
+notify:
+  enabled: false            # 默认关闭
+  on: ["fail"]              # fail=只在失败时发  always=每次都发
+  telegram:
+    enabled: false
+    token: ""
+    chat_id: ""
+  webhook:
+    url: ""                 # 钉钉/飞书/企业微信机器人地址
+    headers: {}
+    extra: {}

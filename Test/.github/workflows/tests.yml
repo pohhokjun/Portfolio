@@ -1,0 +1,125 @@
+name: 自动化测试
+
+# ============================================================
+#  分层执行策略
+#
+#  为什么不是「一个 job 跑全部」：
+#    框架自测 3 秒、不联网，任何时候都该跑；
+#    UI 和巡检要联网、要开浏览器，跑一次好几分钟，
+#    而且依赖第三方站点 —— 它挂了不该把整个流水线判红。
+#
+#  所以按「快 → 慢」「稳 → 不稳」分开，
+#  前面挂了就不用往下跑了（fail fast）。
+# ============================================================
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  schedule:
+    # 每天 UTC 01:00（北京时间 09:00）跑一次全量巡检
+    - cron: "0 1 * * *"
+  workflow_dispatch:        # 支持手动触发
+
+jobs:
+
+  # ---------- 第一关：框架自测。3 秒，不联网 ----------
+  unit:
+    name: 框架自测
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: 跑框架自测
+        run: >
+          pytest -m unit -q
+          --cov=api --cov=common --cov=config --cov=pages --cov=plugins --cov=tools --cov=sites
+          --cov-report=term:skip-covered
+      # 这一关挂了说明框架本身坏了，后面的结果全都不可信
+
+  # ---------- 第二关：接口 + 契约。不开浏览器，最快 ----------
+  api:
+    name: 接口与契约
+    needs: unit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      # 先跑 mock：不依赖第三方站点，这一关挂了就是我们自己的问题。
+      # 顺序很重要 —— 把「可控的」放在「不可控的」前面，出了事一眼看得出是谁的锅。
+      - name: 跑接口用例（本地 mock，含故障注入）
+        run: pytest -m "api and not visual" --mock -q
+      - name: 跑接口用例（真站点）
+        run: pytest -m "api and not visual" -q
+      - name: 上传报告
+        if: always()          # 失败时才最需要报告，所以不能只在成功时传
+        uses: actions/upload-artifact@v4
+        with:
+          name: api-report
+          path: reports/
+
+  # ---------- 第三关：质量属性，三个内核并行 ----------
+  quality:
+    name: 质量属性 (${{ matrix.browser }})
+    needs: unit
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false        # 一个内核挂了，另外两个照跑完，方便一次看全
+      matrix:
+        browser: [chromium, firefox, webkit]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: 装浏览器内核
+        run: python -m playwright install --with-deps ${{ matrix.browser }}
+      - name: 跑质量属性用例
+        run: >
+          pytest testcases/quality -q
+          --site=saucedemo
+          --browser-engine=${{ matrix.browser }}
+          --pw-trace
+      - name: 上传追踪文件
+        if: failure()         # 只在失败时传：trace 很大，成功时没人会看
+        uses: actions/upload-artifact@v4
+        with:
+          name: trace-${{ matrix.browser }}
+          path: reports/traces/
+          retention-days: 7
+
+  # ---------- 第四关：UI 功能。依赖第三方站点，允许失败 ----------
+  ui:
+    name: UI 功能
+    needs: unit
+    runs-on: ubuntu-latest
+    continue-on-error: true   # ★ 关键 ★
+    # 被测站点有机器人防护，CI 的出口 IP 很容易被封。
+    # 那是环境问题不是代码问题，不该把 PR 判红。
+    # 框架本身会把这种情况标成 SKIP，这里再加一层保险。
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: 跑 UI 用例
+        run: pytest -m "ui and not crawl" -q
+      - name: 上传失败截图
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ui-screenshots
+          path: reports/screenshots/

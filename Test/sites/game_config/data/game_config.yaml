@@ -1,0 +1,46 @@
+# ============================================================
+# 模拟一款卡牌手游的配置表
+#   策划填表 → 程序读表 → 测试校验表。
+#   配置错误是游戏线上事故的大头：概率加起来不是 100%、
+#   奖励 ID 指向不存在的道具、两个双倍活动时间重叠……
+#   这些都不是代码 bug，功能测试点一遍也看不出来，只能对表本身做校验。
+# 校验逻辑：common/config_check.py   用例：sites/game_config/tests/test_game_config.py
+# ============================================================
+
+rewards:
+  - {id: 1001, name: 金币, value: 1}          # value = 折合钻石价值，数值平衡用
+  - {id: 1002, name: 钻石, value: 1}
+  - {id: 2001, name: N卡碎片, value: 20}
+  - {id: 2002, name: R卡, value: 150}
+  - {id: 2003, name: SR卡, value: 600}
+  - {id: 2004, name: SSR卡, value: 3000}
+  - {id: 3001, name: 经验药水, value: 10}
+
+# 单抽。概率用字符串写，读进来转 Decimal —— 和钱一样，概率不能用浮点数加
+gacha:
+  cost: 300
+  max_return_ratio: 0.9       # 期望回报 ≤ 花费 × 0.9，否则抽卡是亏本生意
+  pool:
+    - {reward_id: 2001, prob: "60"}
+    - {reward_id: 2002, prob: "30"}
+    - {reward_id: 2003, prob: "8.5"}
+    - {reward_id: 2004, prob: "1.5"}
+
+# 升到该级需要的累计经验：必须从 1 级连续编号、严格递增
+levels:
+  - {level: 1, exp: 0}
+  - {level: 2, exp: 100}
+  - {level: 3, exp: 250}
+  - {level: 4, exp: 500}
+  - {level: 5, exp: 900}
+  - {level: 6, exp: 1500}
+
+# 升星属性倍率：星越高倍率越高，不能倒挂
+star_growth: [1.0, 1.2, 1.5, 1.9, 2.4, 3.0]
+
+# 活动时间是左闭右开 [start, end)。同类型活动不能重叠，
+# 否则两个双倍掉落叠在一起变四倍，就是资损
+events:
+  - {id: 1, name: 国庆双倍金币, type: double_gold, start: "2026-10-01 00:00", end: "2026-10-08 00:00", reward_id: 1001}
+  - {id: 2, name: 万圣节双倍金币, type: double_gold, start: "2026-10-25 00:00", end: "2026-11-01 00:00", reward_id: 1001}
+  - {id: 3, name: SSR 概率 UP, type: gacha_up, start: "2026-10-01 00:00", end: "2026-10-15 00:00", reward_id: 2004}

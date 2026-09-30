@@ -1,0 +1,14 @@
+{
+  "说明": "按月算销售额、订单数、客单价，代码校验后等人批准，批准了发给老板",
+  "输入": ["月份"],
+  "步骤": [
+    {"名": "算数", "agent": "按知识库口径，算销售明细里 {月份} 月的销售额、订单数、客单价，再写一句 60 字内的结论。只算数，不用出文件，也不用 deliver。",
+     "输出格式": {"type": "object", "properties": {
+        "sales": {"type": "number", "description": "销售额"}, "orders": {"type": "integer", "description": "订单数"},
+        "avg_order": {"type": "number", "description": "客单价"}, "summary": {"type": "string", "description": "一句话结论"}},
+        "required": ["sales", "orders", "avg_order", "summary"]}},
+    {"名": "校验", "函数": "数值检查", "参数": {"销售额": "{算数.sales}", "订单数": "{算数.orders}", "客单价": "{算数.avg_order}"}},
+    {"名": "确认", "审批": "{月份} 月：销售额 {算数.sales}，订单 {算数.orders}，客单价 {算数.avg_order}。{算数.summary}\n发给老板吗？"},
+    {"名": "发送", "工具": "notify_boss", "参数": {"text": "{月份}月：{算数.summary}"}, "免批": true, "条件": "确认.通过"}
+  ]
+}
